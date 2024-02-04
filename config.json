@@ -1,0 +1,29 @@
+{
+    "classes": [
+        "Texture",
+        "Color",
+        "Vector",
+        "Sound",
+        
+        "Tile",
+        "Ray",
+        
+        "TileRenderer",
+
+        "Button",
+        "ProgressBar",
+        "Label",
+        "Graph",
+        "Checkbox",
+        "TextView",
+        "TextureButton",
+        "GUITexture",
+        "TextBox",
+        "Slider",
+        "ScrollPanel",
+
+        "GUI",
+        "WindowGUI",
+        "RoundedGUI"
+    ]
+}

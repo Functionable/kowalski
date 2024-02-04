@@ -1,0 +1,19 @@
+# BlurEngine executables
+BlurEngine
+BlurEngine.exe
+shaders/
+./content/
+
+# Documentation content
+finished-docs/
+docs/
+out/
+
+__pycache__/
+
+# Some Kowalski Outputs
+report.json
+global-functions.json
+
+# You may want to set up a python virtualenv for mkdocs.
+venv/

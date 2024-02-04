@@ -1,0 +1,49 @@
+site_name: BlurEngine Lua
+use_directory_urls: false
+extra_css: [extra.css]
+markdown_extensions:
+    - pymdownx.details
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - admonition
+    - meta
+plugins:
+    - search
+    - localsearch
+    - section-index
+    - include_dir_to_nav
+nav:
+    - "Introduction": index.md
+
+    - "API Reference": 
+        - api-reference/api-reference.md
+        - "Global Functions": api-reference/globals.md
+        %%MKDOCS_SUB%%
+
+    - "Tutorials":
+        - tutorials/index.md
+        - "Introduction to GUI": tutorials/gui-basics.md
+    - "Contribute": "https://github.com/Functionable/BlurEngineLuaDocs"
+theme:
+    features:
+        - navigation.tabs
+        - navigation.tracking
+    name: material
+    icon:
+        logo: images/logo
+    custom_dir: theme
+    palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
